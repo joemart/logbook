@@ -6,12 +6,12 @@ use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
 
-     try {
-        DB::connection()->getPdo();
-        return "Connected successfully to database: " . DB::connection()->getDatabaseName();
-    } catch (\Exception $e) {
-        return "Error connecting to database: " . $e->getMessage();
-    }
+    //  try {
+    //     DB::connection()->getPdo();
+    //     return "Connected successfully to database: " . DB::connection()->getDatabaseName();
+    // } catch (\Exception $e) {
+    //     return "Error connecting to database: " . $e->getMessage();
+    // }
 
 
 

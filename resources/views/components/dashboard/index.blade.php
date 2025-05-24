@@ -1,3 +1,6 @@
-<section>
-    
-</section>
+<x-layout>
+    <section>
+        
+    </section>
+
+</x-layout>

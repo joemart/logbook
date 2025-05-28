@@ -9,7 +9,7 @@
 
     </head>
     <body>
-        <div class="red">asfdasdf</div>
+        
         <x-dashboard/>
     </body>
 </html>

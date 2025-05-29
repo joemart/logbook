@@ -1,13 +1,41 @@
+.nav{
+    height: 4em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-.magnifying_glass{
-    width: v.$icon-size;
+
 }
 
-.search_dashboard{
+.magnifying_glass{
+    height: v.$icon-size;
+}
+
+.search{
+
+    padding:0 .5rem;
+
+    width: 60%;
+
     display: flex;
+    align-items: center;
     gap : 5px;
+    outline: 2px solid red;
+
+    border-radius: v.$border-radius;
+    
 }
 
 .input_dashboard{
+    width: 100%;
+    height: v.$height-input;
+    background: none;
+    border: none;
 
+    &:focus-visible{
+        border:none;
+        outline:none;
+    }
 }
+

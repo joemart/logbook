@@ -8,8 +8,9 @@
         @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
     </head>
-    <body>
-        
+    <body >
         <x-dashboard/>
+        
+        
     </body>
 </html>

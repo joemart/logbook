@@ -5,9 +5,12 @@
     justify-content: space-between;
     align-items: center;
 
+  
 
 }
-
+  .dark{
+        background-color: v.$darkModeColorBG;
+    }
 .magnifying_glass{
     height: v.$icon-size;
 }
@@ -25,6 +28,29 @@
 
     border-radius: v.$border-radius;
     
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: v.$icon-size;
+    &_popup{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        list-style: none;
+        
+        bottom: -60px;
+        right: 0;
+        & li{
+            width: 100%;
+            outline: 1px solid grey;
+            text-align: center;
+        }
+    }
 }
 
 .input_dashboard{
